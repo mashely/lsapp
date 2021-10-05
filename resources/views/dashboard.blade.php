@@ -12,7 +12,7 @@
                    
                 <h3>Your blog posts</h3>
 
-            @if(count(array($posts)) > 0)   
+            @if(count(array($posts)) < 0)   
                  <table class="table table-striped">
                      <tr>
                          <th>Title</th>
